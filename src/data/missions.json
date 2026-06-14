@@ -1,0 +1,35 @@
+{
+  "transport": [
+    { "title": "Metro Magic", "description": "Take Namma/Delhi Metro instead of a cab or auto", "saving": 2.5 },
+    { "title": "Walk to Kirana", "description": "Walk to the local kirana store under 1 km", "saving": 1.2 },
+    { "title": "Two-Wheeler Pool", "description": "Carpool/ride share on a bike or scooter", "saving": 1.8 },
+    { "title": "Bus Commute", "description": "Ride local DTC/BEST/BMTC bus today", "saving": 2.0 },
+    { "title": "Eco-Driving", "description": "Keep speed under 50 km/h, avoid sudden braking", "saving": 1.0 },
+    { "title": "No Drive Day", "description": "Keep car/bike parked all day", "saving": 4.5 },
+    { "title": "Train Over Flight", "description": "Choose express train over short domestic flight", "saving": 35.0 }
+  ],
+  "food": [
+    { "title": "No Swiggy/Zomato", "description": "Cook home meals today, avoid quick delivery", "saving": 1.5 },
+    { "title": "Dairy-Free Chai", "description": "Enjoy black tea/coffee or coconut milk instead", "saving": 1.0 },
+    { "title": "Desi Veg Feast", "description": "Eat purely local seasonal vegetarian meals", "saving": 2.0 },
+    { "title": "Zero Food Waste", "description": "Finish all leftovers in the fridge today", "saving": 1.2 },
+    { "title": "Millet Power", "description": "Eat millets/ragi/jowar instead of rice/wheat", "saving": 0.8 },
+    { "title": "Plant Protein Swap", "description": "Choose dal/paneer/chana over chicken or mutton", "saving": 2.5 }
+  ],
+  "energy": [
+    { "title": "Desert Cooler Comfort", "description": "Use air cooler or fan instead of AC for 4 hours", "saving": 3.6 },
+    { "title": "Natural Dry", "description": "Dry clothes under the Indian sun, no machine dryer", "saving": 1.5 },
+    { "title": "Switch Off Mains", "description": "Turn off geyser/AC main switches after use", "saving": 1.0 },
+    { "title": "Fan Patrol", "description": "Ensure no fans/lights run in unoccupied rooms", "saving": 0.5 },
+    { "title": "Sunset Mode", "description": "Unplug laptop/charger during peak evening hours", "saving": 0.4 },
+    { "title": "Balkani Chaya", "description": "Sit in balcony with natural breeze instead of AC room", "saving": 2.0 }
+  ],
+  "shopping": [
+    { "title": "Raddi & Recycle", "description": "Give newspapers/bottles to the local raddi-wala", "saving": 2.0 },
+    { "title": "Tailor/Cobbler Repair", "description": "Get clothes/shoes repaired by local vendor", "saving": 5.0 },
+    { "title": "Own Cloth Bag", "description": "Bring your own bag to the local sabzi mandi", "saving": 1.0 },
+    { "title": "No Quick Commerce", "description": "Avoid 10-min delivery, buy from local shop", "saving": 1.5 },
+    { "title": "Buy Steel/Clay", "description": "Buy durable steel/clay bottles over plastic", "saving": 3.0 },
+    { "title": "Secondhand Desi Find", "description": "Borrow or buy refurbished/preloved items", "saving": 8.0 }
+  ]
+}

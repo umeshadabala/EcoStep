@@ -1,0 +1,38 @@
+{
+  "transport": {
+    "petrol_car_per_km": 0.18,
+    "diesel_car_per_km": 0.22,
+    "ev_car_per_km": 0.05,
+    "petrol_two_wheeler_per_km": 0.06,
+    "ev_two_wheeler_per_km": 0.015,
+    "auto_rickshaw_cng_per_km": 0.08,
+    "metro_train_per_km": 0.03,
+    "bus_per_km": 0.05,
+    "flight_per_km": 0.25,
+    "walking": 0,
+    "other_transport": 0.12
+  },
+  "food": {
+    "traditional_veg_meal": 0.6,
+    "non_veg_meal": 2.2,
+    "heavy_dairy": 1.2,
+    "fast_food_delivery": 1.8,
+    "other_food": 1.0
+  },
+  "energy": {
+    "ac_per_hour": 1.2,
+    "air_cooler_per_hour": 0.3,
+    "fan_led_per_hour": 0.05,
+    "geyser_per_hour": 1.8,
+    "diesel_generator_per_hour": 2.5,
+    "other_energy": 0.8
+  },
+  "shopping": {
+    "local_bazaar": 0.5,
+    "quick_commerce_delivery": 2.0,
+    "new_electronics": 45.0,
+    "new_clothes": 8.0,
+    "secondhand_repair": 0.2,
+    "other_shopping": 3.0
+  }
+}
