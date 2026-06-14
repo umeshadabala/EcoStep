@@ -1,16 +1,272 @@
-# React + Vite
+# 🌱 EcoStep
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An innovative, tech-driven sustainability platform designed to help individuals track, understand, and reduce their environmental impact through smart insights and eco-friendly actions.
 
-Currently, two official plugins are available:
+## 🌐 Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**Live Application:**  
+https://ecosteps-670137610660.asia-south1.run.app/
 
-## React Compiler
+**GitHub Repository:**  
+https://github.com/umeshadabala/EcoStep
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# 📌 Table of Contents
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [About](#about)
+- [Problem](#problem)
+- [Solution](#solution)
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Running Locally](#running-locally)
+- [Deployment](#deployment)
+- [Future Scope](#future-scope)
+- [License](#license)
+
+---
+
+# 🌍 About
+
+EcoStep is a sustainability platform that helps users measure their ecological footprint and improve their daily habits.
+
+It converts everyday activities into meaningful environmental insights and encourages users to make smarter, greener choices.
+
+---
+
+# 🚨 Problem
+
+Climate change is influenced by everyday activities such as:
+
+- Energy consumption
+- Transportation
+- Waste generation
+- Resource usage
+
+Many people are unaware of how much impact their daily decisions create.
+
+---
+
+# 💡 Solution
+
+EcoStep provides:
+
+- Environmental impact tracking
+- Personalized sustainability insights
+- Progress monitoring
+- Eco-friendly action recommendations
+
+The goal is to make sustainability simple, measurable, and achievable.
+
+---
+
+# ✨ Features
+
+## 🌱 Eco Dashboard
+
+- Track environmental metrics
+- View sustainability progress
+- Monitor improvements
+
+## 📊 Analytics
+
+- Data visualization
+- Impact reports
+- Habit analysis
+
+## 🎯 Eco Challenges
+
+- Daily sustainability tasks
+- Goal-based activities
+- Motivation system
+
+## 📈 Progress Tracking
+
+- Personal sustainability journey
+- Long-term impact measurement
+
+---
+
+# 🛠 Technology Stack
+
+## Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Backend
+
+- Python
+- Node.js
+
+## Database
+
+- MongoDB
+- PostgreSQL
+- Firebase
+
+## Cloud
+
+- Google Cloud Run
+- Artifact Registry
+
+## Tools
+
+- Docker
+- Git
+
+---
+
+# 🏗 Architecture
+
+```
+User
+ |
+ v
+Web Browser
+ |
+ v
+HTTPS Request
+ |
+ v
+Google Cloud Run
+ |
+ +----------------+
+ | Frontend       |
+ +----------------+
+ |
+ v
+ +----------------+
+ | Backend API    |
+ +----------------+
+ |
+ v
+ +----------------+
+ | Database       |
+ +----------------+
+```
+
+---
+
+# 🚀 Installation
+
+## Requirements
+
+Install:
+
+- Git
+- Python 3+
+- Node.js
+
+---
+
+## Clone Repository
+
+```bash
+git clone https://github.com/umeshadabala/EcoStep.git
+
+cd EcoStep
+```
+
+---
+
+## Install Dependencies
+
+Python:
+
+```bash
+pip install -r requirements.txt
+```
+
+Node:
+
+```bash
+npm install
+```
+
+---
+
+# 🔐 Environment Variables
+
+Create a `.env` file:
+
+```env
+PORT=8080
+
+DATABASE_URL=your_database_connection
+
+API_KEY=your_api_key
+```
+
+---
+
+# ▶️ Running Locally
+
+Start the application:
+
+```bash
+python app.py
+```
+
+or
+
+```bash
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:8080
+```
+
+---
+
+# ☁️ Deployment
+
+EcoStep uses Docker and Google Cloud Run.
+
+Build image:
+
+```bash
+docker build -t ecostep .
+```
+
+Run container:
+
+```bash
+docker run -p 8080:8080 ecostep
+```
+
+Deploy:
+
+```bash
+gcloud run deploy ecostep \
+--image ecostep \
+--platform managed \
+--region asia-south1
+```
+
+---
+
+# 🔮 Future Scope
+
+- AI-powered sustainability recommendations
+- Carbon footprint prediction
+- IoT sensor integration
+- Smart home monitoring
+- Community challenges
+- Gamification
+
+---
+
+# 📄 License
+
+MIT License
+
+---
+
+Made with 💚 for a sustainable future 🌍
