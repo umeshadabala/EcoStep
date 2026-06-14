@@ -99,14 +99,11 @@ The goal is to make sustainability simple, measurable, and achievable.
 
 ## Backend
 
-- Python
 - Node.js
 
 ## Database
 
-- MongoDB
 - PostgreSQL
-- Firebase
 
 ## Cloud
 
@@ -158,7 +155,6 @@ Google Cloud Run
 Install:
 
 - Git
-- Python 3+
 - Node.js
 
 ---
@@ -177,9 +173,6 @@ cd EcoStep
 
 Python:
 
-```bash
-pip install -r requirements.txt
-```
 
 Node:
 
@@ -194,7 +187,6 @@ npm install
 Create a `.env` file:
 
 ```env
-PORT=8080
 
 DATABASE_URL=your_database_connection
 
@@ -207,11 +199,6 @@ API_KEY=your_api_key
 
 Start the application:
 
-```bash
-python app.py
-```
-
-or
 
 ```bash
 npm run dev
@@ -220,7 +207,7 @@ npm run dev
 Open:
 
 ```
-http://localhost:8080
+http://localhost:5173
 ```
 
 ---
