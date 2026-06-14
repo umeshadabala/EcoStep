@@ -1,4 +1,3 @@
-import { useMemo } from 'react';
 import { getWeeklyTotal, getCityState, getConsecutiveGreenDays, getConsecutiveNoDriveDays } from '../utils/scoring';
 
 export default function CityView() {
@@ -12,7 +11,7 @@ export default function CityView() {
   const showWindTurbines = greenDays >= 7;
   const showMetro = greenDays >= 2; // Elevated metro train unlock
 
-  const config = useMemo(() => {
+  const config = (() => {
     switch (cityState) {
       case 'Thriving': return { skyTop: '#56CCF2', skyBot: '#2F80ED', groundColor: '#27AE60', treeCount: 6, smokeStacks: 0, vehicles: ['rickshaw', 'cycle', 'ev_scooter'], parks: true };
       case 'Struggling': return { skyTop: '#8E9EAB', skyBot: '#eef2f3', groundColor: '#78B159', treeCount: 3, smokeStacks: 1, vehicles: ['rickshaw', 'petrol_scooter', 'cab'], parks: true };
@@ -20,7 +19,7 @@ export default function CityView() {
       case 'Critical': return { skyTop: '#3a1c1c', skyBot: '#5D4037', groundColor: '#6D6D6D', treeCount: 0, smokeStacks: 3, vehicles: ['suv', 'suv', 'cab', 'cab', 'petrol_scooter'], parks: false };
       default: return { skyTop: '#56CCF2', skyBot: '#2F80ED', groundColor: '#27AE60', treeCount: 6, smokeStacks: 0, vehicles: ['rickshaw', 'cycle'], parks: true };
     }
-  }, [cityState]);
+  })();
 
   const stateColors = { Thriving: 'text-emerald-400', Struggling: 'text-yellow-400', Polluted: 'text-orange-400', Critical: 'text-red-400' };
   const stateEmoji = { Thriving: '🌿', Struggling: '🌥️', Polluted: '🏭', Critical: '🔥' };
